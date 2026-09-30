@@ -34,8 +34,7 @@ Sentiment Prediction
       ↓
 SST-2 GLUE Predictions
       ↓
-SST-2.tsv
-```
+SST-2.tsv```
 
 The trainable projection and final classifier are kept architecturally identical to the hybrid quantum-classical model. Only the middle computational block is replaced with the classical equivalent block, allowing the two models to be compared under the same input processing and classification setup.
 
